@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 2
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "hediet.vscode-drawio",
+      "dracula-theme.theme-dracula",
+      "github.vscode-pull-request-github",
+      "eamodio.gitlens",
+      "visualstudioexptteam.vscodeintellicode",
+      "dsznajder.es7-react-js-snippets"
+    ]
+  }
+}
