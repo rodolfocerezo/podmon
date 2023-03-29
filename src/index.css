@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+    url(./assets/fonts/Poppins/Poppins-Regular.ttf) format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00aef2;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  color: var(--font-color);
+}
+
+#root * {
+  transition: color 1s, background 1s, border 1s, fill 1s, stroke 1s ease-in;
+}
+
+:root {
+  --background: #282a36;
+  --foreground: #f8f8f2;
+  --selection: #44475a;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+  --black: #21222c;
+  --brightred: #ff6e6e;
+  --brightgreen: #69ff94;
+  --brightyellow: #ffffa5;
+  --brightblue: #d6acff;
+  --brightmagenta: #ff92df;
+  --brightcyan: #a4ffff;
+  --brightwhite: #ffffff;
 }

@@ -1,5 +1,9 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
+  alias: {
+    '@assets': './src/assets',
+    '@components': './src/components',
+  },
   mount: {
     public: { url: '/', static: true },
     src: { url: '/dist' },
@@ -14,6 +18,7 @@ export default {
         ...(process.versions.pnp ? { tsc: 'yarn pnpify tsc' } : {}),
       },
     ],
+    '@snowpack/plugin-webpack',
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

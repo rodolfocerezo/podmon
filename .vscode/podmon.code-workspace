@@ -1,12 +1,14 @@
 {
   "folders": [
     {
-      "path": "."
+      "path": ".."
     }
   ],
   "settings": {
     "editor.fontFamily": "Fira Code",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "prettier.semi": false,
+    "files.autoSave": "afterDelay"
   },
   "extensions": {
     "recommendations": [
